@@ -38,7 +38,13 @@ x = txt.find("welcome")
 
 print(x)
 
+
+
 # Returning lowercase and uppercase
 print("teSTiNG".lower())
 
 print("testing".upper())
+
+# New Line Escape
+
+print("New\nLine")
