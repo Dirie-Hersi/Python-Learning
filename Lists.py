@@ -50,4 +50,18 @@ my_list.index('c')
 #4 not in my_list
 #True
 
+#Sort list
+my_list = [1,3,4,8,2]
+print(sorted(my_list))
+
+#Reverse sort
+print(list(reversed(sorted((my_list)))))
+
+
+#Matrix
+my_matrix = [[1,2,3],
+            [ 4,5,6]]
+
+print(my_matrix)
+
 
