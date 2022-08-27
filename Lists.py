@@ -17,4 +17,11 @@ my_list[0] = 'a'
 print(my_list)
 
 #Concatenate List
-my_list + [8,9,10]
+my_list += [8,9,10]
+print(my_list)
+
+#Assigning new list items to a slice
+my_list[1:3] = ['b','c']
+print(my_list)
+
+#Remove items from a list
