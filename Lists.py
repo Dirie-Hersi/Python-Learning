@@ -28,4 +28,26 @@ print(my_list)
 del my_list[0]
 print(my_list)
 
+#Using append- adds to end of list
+my_list.append(100)
+print(my_list)
+
+#Using insert- choose position of item that will be inserted
+my_list.insert(0,'a')
+print(my_list)
+
+#Use index to return position of item
+my_list.index('c')
+
+
+#In and Not in examples
+
+#my_list = [1,2,3]
+#4 in my_list
+#False
+
+#my_list= [1,2,3]
+#4 not in my_list
+#True
+
 
