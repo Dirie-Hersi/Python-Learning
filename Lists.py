@@ -25,3 +25,7 @@ my_list[1:3] = ['b','c']
 print(my_list)
 
 #Remove items from a list
+del my_list[0]
+print(my_list)
+
+
