@@ -18,3 +18,6 @@ print(ages.keys())
 
 #values method- list of dict value
 print(ages.values())
+
+#items- dict item class that is a list of tuples
+print(ages.items())
