@@ -17,3 +17,14 @@ else:
     print("no condition was true")
     
     
+
+name = input("What is your name? ")
+
+if len(name) >= 6:
+    print("Your name is long!")
+elif len(name) == 5:
+    print("Your name is exactly 5 characters long!")
+else:
+    print("Your name is short!")
+    
+    
