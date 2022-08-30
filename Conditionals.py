@@ -28,3 +28,13 @@ else:
     print("Your name is short!")
     
     
+    #Pass
+    
+    name = 'Joe'
+    
+    if name == "Mike":
+        print("Hello Mike")
+    else:
+        pass
+    
+    
