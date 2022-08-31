@@ -49,6 +49,7 @@ while count < 10:
     print(f"We're counting odd numbers: {count}")
     count +=1
     
+print()
 
 count = 1
 while count < 10:
@@ -57,6 +58,8 @@ while count < 10:
     print(f"We're counting odd numbers: {count}")
     count += 1
     
+print()
+
 colors = ['blue', 'green', 'red', 'purple']
 for color in colors:
     if color == 'blue':
@@ -64,3 +67,56 @@ for color in colors:
     elif color == 'red':
         break
     print(color)
+
+print()
+
+count = 1
+while count <= 4:
+    print(count)
+    count += 1
+else:
+    print("While loop completed")
+    
+print()
+
+colors = ['red', 'pink', 'blue', 'orange', 'green']
+for color in colors:
+    if color == 'orange':
+        print('Orange is in the list')
+        break
+else:
+    print('Orange is not in the list')
+    
+    
+print()
+ 
+  #Range
+  
+myrange = range(10)
+print(list(myrange))
+
+count = 1
+while count <= 4:
+    print('looping')
+    count += 1
+    
+for _ in range(4):
+    print('looping')
+    
+#List comprehensions
+
+colors = ['red', 'blue', 'orange', 'green', 'yellow']
+uppercase_colors = []
+for color in colors:
+    uppercase_colors.append(color.upper())
+print(uppercase_colors)
+
+print()
+
+#list comprehension
+uppercase_colors = [color.upper() for color in colors]
+print(uppercase_colors)
+
+colors = ['red', 'blue', 'orange', 'green', 'yellow']
+warm_colors =[color for color in colors if color in ['red', 'orange', 'yellow']]
+print(warm_colors)
